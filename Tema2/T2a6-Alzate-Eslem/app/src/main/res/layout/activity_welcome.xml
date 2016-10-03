@@ -18,7 +18,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="68dp"
         android:id="@+id/dniTextView"
-        android:textAlignment="textStart" />
+        android:textAlignment="textStart"
+        android:textSize="18sp" />
 
     <TextView
         android:text="@string/welcome"
@@ -26,9 +27,9 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="12dp"
         android:id="@+id/textView2"
-        android:textSize="24sp"
-        android:textStyle="normal|bold"
         android:layout_above="@+id/dniTextView"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="@color/colorAccent" />
 
 </RelativeLayout>

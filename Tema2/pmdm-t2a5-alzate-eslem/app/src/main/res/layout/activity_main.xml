@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.fpmislata.practicas.pmdm_t2a5_alzate_eslem.MainActivity">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/tv1"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        tools:text="Ingrese el primer valor" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_below="@+id/tv1"
+        android:layout_alignParentStart="true"
+        android:id="@+id/et1" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:id="@+id/tv2"
+        android:layout_below="@+id/et1"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        tools:text="Ingrese el segundo valor" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_below="@+id/tv2"
+        android:layout_alignParentStart="true"
+        android:id="@+id/et2" />
+
+    <Button
+        android:text="Sumar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_below="@+id/et2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp"
+        android:onClick="sumar" />
+
+    <TextView
+        android:text="Resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv3"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:layout_below="@+id/button"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
