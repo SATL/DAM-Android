@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aplicacion9</string>
+    <string name="game">Jeu Vidéo</string>
+    <string name="start">Commencer Jeu</string>
+    <string name="settings">Set Jeu</string>
+    <string name="ranking">Classement</string>
+    <string name="about">Sur</string>
+    <string name="exit">Sortir</string>
+    <string name="action_settings">Paramètres</string>
+</resources>
