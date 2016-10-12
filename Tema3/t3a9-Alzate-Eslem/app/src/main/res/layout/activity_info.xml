@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.fpmislata.practicas.t2a6_alzate_eslem.InfoActivity">
+
+    <TextView
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit suscipit mauris, a vulputate velit pretium sit amet. Vivamus orci dui, scelerisque sed semper sed, pellentesque id massa. Nunc lacinia eleifend congue. Duis maximus nibh lorem, id condimentum tellus mattis non. Aenean commodo, neque eu sagittis commodo, leo ligula consectetur odio, sit amet egestas lorem ligula eu leo. Praesent volutpat elit in nibh porta mattis. Nullam interdum varius ex. Duis hendrerit pretium urna, in suscipit ex pretium ut. Suspendisse pellentesque hendrerit tortor eu aliquam. Morbi arcu tellus, euismod sit amet lobortis vitae, ornare fringilla justo. Sed blandit viverra vulputate. In dictum tortor id efficitur varius. Maecenas porttitor viverra orci, egestas dictum dolor lobortis a."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textView4" />
+
+    <TextView
+        android:text="@string/information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textAppearance="@android:style/TextAppearance.Material.Display1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp" />
+</RelativeLayout>
